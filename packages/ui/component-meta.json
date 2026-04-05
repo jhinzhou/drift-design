@@ -1,0 +1,121 @@
+{
+  "package": "@drift-ui/ui",
+  "generatedAt": "2026-04-05T05:02:24.882Z",
+  "components": [
+    {
+      "name": "Button",
+      "description": "语义化按钮组件，支持 variant 和 size。",
+      "props": {
+        "variant": [
+          "primary",
+          "secondary",
+          "destructive"
+        ],
+        "size": [
+          "sm",
+          "md",
+          "lg"
+        ],
+        "disabled": "boolean",
+        "type": [
+          "button",
+          "submit",
+          "reset"
+        ]
+      },
+      "slots": [
+        "default"
+      ],
+      "events": [],
+      "a11y": [
+        "focus-visible",
+        "disabled-state"
+      ],
+      "tokens": [
+        "primary",
+        "primary-foreground",
+        "destructive"
+      ]
+    },
+    {
+      "name": "Input",
+      "description": "输入框组件，支持 v-model。",
+      "props": {
+        "modelValue": "string",
+        "placeholder": "string",
+        "disabled": "boolean"
+      },
+      "slots": [],
+      "events": [
+        "update:modelValue"
+      ],
+      "a11y": [
+        "focus-visible",
+        "disabled-state"
+      ],
+      "tokens": [
+        "background",
+        "foreground",
+        "border"
+      ]
+    },
+    {
+      "name": "Dialog",
+      "description": "基于 Radix Vue 的弹窗组件。",
+      "props": {
+        "title": "string"
+      },
+      "slots": [
+        "trigger",
+        "default"
+      ],
+      "events": [],
+      "a11y": [
+        "aria-label(close)",
+        "focus-trap-via-radix"
+      ],
+      "tokens": [
+        "background",
+        "foreground",
+        "border"
+      ]
+    },
+    {
+      "name": "FormField",
+      "description": "表单字段容器，支持 required 与错误提示。",
+      "props": {
+        "label": "string",
+        "required": "boolean",
+        "error": "string"
+      },
+      "slots": [
+        "default"
+      ],
+      "events": [],
+      "a11y": [
+        "required-indicator"
+      ],
+      "tokens": [
+        "foreground",
+        "destructive"
+      ]
+    },
+    {
+      "name": "Card",
+      "description": "基础卡片容器。",
+      "props": {
+        "class": "string"
+      },
+      "slots": [
+        "default"
+      ],
+      "events": [],
+      "a11y": [],
+      "tokens": [
+        "background",
+        "foreground",
+        "border"
+      ]
+    }
+  ]
+}

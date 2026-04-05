@@ -1,0 +1,16 @@
+# drift-ui
+
+`drift-ui` 是一个基于 Vue + TypeScript + Vite 的组件库 Monorepo，目标是同时面向开发者与 AI 代理友好。
+
+## Workspace
+
+- `packages/ui`: 组件库源码、测试、harness、元数据生成
+- `apps/docs`: VitePress 文档站
+
+## 常用命令
+
+- `pnpm lint`: 代码检查（含 i18n/theme 校验）
+- `pnpm test`: 单元测试
+- `pnpm typecheck`: TS 类型检查
+- `pnpm build`: 构建组件库与文档
+- `pnpm harness`: 组件交付验收（7 类 Gate）

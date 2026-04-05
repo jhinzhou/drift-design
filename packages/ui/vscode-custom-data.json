@@ -1,0 +1,83 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "drift-button",
+      "description": "语义化按钮组件，支持 variant 和 size。",
+      "attributes": [
+        {
+          "name": "variant",
+          "description": "primary | secondary | destructive"
+        },
+        {
+          "name": "size",
+          "description": "sm | md | lg"
+        },
+        {
+          "name": "disabled",
+          "description": "boolean"
+        },
+        {
+          "name": "type",
+          "description": "button | submit | reset"
+        }
+      ]
+    },
+    {
+      "name": "drift-input",
+      "description": "输入框组件，支持 v-model。",
+      "attributes": [
+        {
+          "name": "modelValue",
+          "description": "string"
+        },
+        {
+          "name": "placeholder",
+          "description": "string"
+        },
+        {
+          "name": "disabled",
+          "description": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "drift-dialog",
+      "description": "基于 Radix Vue 的弹窗组件。",
+      "attributes": [
+        {
+          "name": "title",
+          "description": "string"
+        }
+      ]
+    },
+    {
+      "name": "drift-formfield",
+      "description": "表单字段容器，支持 required 与错误提示。",
+      "attributes": [
+        {
+          "name": "label",
+          "description": "string"
+        },
+        {
+          "name": "required",
+          "description": "boolean"
+        },
+        {
+          "name": "error",
+          "description": "string"
+        }
+      ]
+    },
+    {
+      "name": "drift-card",
+      "description": "基础卡片容器。",
+      "attributes": [
+        {
+          "name": "class",
+          "description": "string"
+        }
+      ]
+    }
+  ]
+}

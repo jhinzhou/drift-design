@@ -1,0 +1,8 @@
+## drift-ui Agent Rules
+
+1. Always prefer minimal changes and avoid cross-step scope.
+2. Use semantic theme tokens (`primary`, `success`, `warning`, `destructive`), never hardcode brand colors in components.
+3. Any built-in text must go through i18n keys and keep `zh-CN` / `en-US` aligned.
+4. For each component change, update tests, docs examples, and `component-meta.json`.
+5. Ensure new code passes: `pnpm lint`, `pnpm test`, `pnpm typecheck`, `pnpm harness`.
+6. Keep output in Vue + TypeScript + Vite style with shadcn-vue composition patterns.

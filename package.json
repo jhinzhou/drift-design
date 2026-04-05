@@ -1,0 +1,44 @@
+{
+  "name": "drift-ui",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "lint": "pnpm -r run lint && pnpm i18n:check && pnpm theme:check",
+    "test": "pnpm -r run test",
+    "typecheck": "pnpm -r run typecheck",
+    "build": "pnpm --filter @drift-ui/ui run meta:generate && pnpm -r run build",
+    "harness": "pnpm --filter @drift-ui/ui run harness",
+    "docs:build": "pnpm --filter @drift-ui/docs run build",
+    "meta:check": "pnpm --filter @drift-ui/ui run meta:check",
+    "i18n:check": "pnpm --filter @drift-ui/ui run i18n:check",
+    "theme:check": "pnpm --filter @drift-ui/ui run theme:check",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release:verify": "pnpm lint && pnpm test && pnpm typecheck && pnpm build && pnpm harness && pnpm meta:check",
+    "commitlint": "commitlint",
+    "prepare": "simple-git-hooks"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint && pnpm typecheck",
+    "commit-msg": "pnpm commitlint --edit $1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@changesets/cli": "latest",
+    "@eslint/js": "latest",
+    "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-plugin-vue": "latest",
+    "globals": "latest",
+    "prettier": "latest",
+    "simple-git-hooks": "latest",
+    "typescript": "latest",
+    "typescript-eslint": "latest",
+    "vue-eslint-parser": "latest"
+  }
+}

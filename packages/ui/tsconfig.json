@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": false,
+    "outDir": "dist",
+    "types": ["vitest/globals", "node"],
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src", "src/**/*.json", "scripts", "harness", "vitest.config.ts", "vite.config.ts"]
+}

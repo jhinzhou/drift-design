@@ -1,0 +1,19 @@
+{
+  "name": "@drift-ui/docs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "preview": "vitepress preview .",
+    "lint": "eslint .vitepress --max-warnings=0",
+    "test": "echo \"docs test skipped\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "markdown-it-container": "latest",
+    "typescript": "latest",
+    "vitepress": "latest"
+  }
+}

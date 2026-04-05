@@ -1,0 +1,68 @@
+{
+  "name": "@drift-ui/ui",
+  "version": "1.0.0",
+  "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./styles.css": "./dist/styles.css",
+    "./component-meta.json": "./component-meta.json",
+    "./vscode-custom-data.json": "./vscode-custom-data.json"
+  },
+  "files": [
+    "dist",
+    "component-meta.json",
+    "vscode-custom-data.json"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "dependencies": {
+    "@radix-icons/vue": "latest",
+    "class-variance-authority": "latest",
+    "clsx": "latest",
+    "radix-vue": "latest",
+    "tailwind-merge": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "latest",
+    "@vitejs/plugin-vue": "latest",
+    "@vue/test-utils": "latest",
+    "jsdom": "latest",
+    "shadcn-vue": "latest",
+    "tailwindcss": "latest",
+    "tslib": "latest",
+    "tsx": "latest",
+    "vite": "latest",
+    "vite-plugin-dts": "latest",
+    "vitest": "latest",
+    "vue": "latest",
+    "vue-tsc": "latest"
+  },
+  "scripts": {
+    "lint": "eslint \"src/**/*.{ts,vue}\" \"scripts/**/*.ts\" \"harness/**/*.ts\" --max-warnings=0",
+    "test": "vitest run",
+    "typecheck": "vue-tsc -p tsconfig.json --noEmit",
+    "build": "vite build",
+    "meta:generate": "tsx scripts/generate-meta.ts",
+    "meta:check": "tsx scripts/check-meta.ts",
+    "i18n:check": "tsx scripts/check-i18n.ts",
+    "theme:check": "tsx scripts/check-theme.ts",
+    "harness": "tsx harness/runners/run-harness.ts",
+    "shadcn:init": "shadcn-vue init --yes --cwd .",
+    "shadcn:add": "shadcn-vue add"
+  }
+}

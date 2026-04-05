@@ -1,0 +1,23 @@
+# drift-ui LLM Index
+
+## Package
+- name: @drift-ui/ui
+- import: @drift-ui/ui
+- style: @drift-ui/ui/styles.css
+
+## Components
+- Button: /components/button
+- Input: /components/input
+- Dialog: /components/dialog
+- FormField: /guide/ai-snippets
+- Card: /guide/ai-snippets
+
+## AI Constraints
+- Use semantic theme tokens only.
+- Any built-in copy must use i18n key.
+- Keep minimal diff and avoid cross-step implementation.
+
+## Task Index
+- forms-with-validation: Input + FormField + Button
+- confirmation-dialog: Dialog + Button
+- theme-toggle: createThemeProvider + useTheme
