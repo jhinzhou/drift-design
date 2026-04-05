@@ -2,8 +2,9 @@ name: Release
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - "v*"
+  workflow_dispatch:
 
 jobs:
   release:
@@ -27,10 +28,6 @@ jobs:
       - run: pnpm build
       - run: pnpm harness
       - run: pnpm meta:check
-      - uses: changesets/action@v1
-        with:
-          version: pnpm version-packages
-          publish: pnpm -r publish --access public
+      - run: pnpm --filter drift-design publish --access public
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
