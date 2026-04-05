@@ -1,6 +1,6 @@
 import DefaultTheme from "vitepress/theme";
 import type { Theme } from "vitepress";
-import "../../../../packages/ui/dist/styles.css";
+import "../../../../packages/ui/src/styles/index.css";
 import "./custom.css";
 
 import ButtonInteractiveDemo from "../../components-examples/button-interactive.vue";
