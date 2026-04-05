@@ -24,4 +24,4 @@
 
 ## 文档站
 
-- GitHub Pages: `https://jhinzhou.github.io/dirft-ui/`
+- GitHub Pages: `https://jhinzhou.github.io/drift/`
