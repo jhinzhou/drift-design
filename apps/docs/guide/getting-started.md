@@ -13,15 +13,15 @@ useCases:
 ## Install
 
 ```bash
-pnpm add @drift/ui
+pnpm add drift-design
 ```
 
 ## Usage
 
 ```vue
 <script setup lang="ts">
-import "@drift/ui/styles.css";
-import { Button } from "@drift/ui";
+import "drift-design/styles.css";
+import { Button } from "drift-design";
 </script>
 
 <template>

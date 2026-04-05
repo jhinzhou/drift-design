@@ -8,7 +8,7 @@
 
 ```vue
 <script setup lang="ts">
-import { Button, Dialog } from "@drift/ui";
+import { Button, Dialog } from "drift-design";
 </script>
 
 <template>

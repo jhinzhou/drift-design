@@ -1,4 +1,4 @@
-# @drift/ui
+# drift-design
 
 ## 1.0.1
 

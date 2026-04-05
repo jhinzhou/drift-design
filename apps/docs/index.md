@@ -25,12 +25,12 @@ features:
 ## Install
 
 ```bash
-pnpm add @drift/ui
+pnpm add drift-design
 ```
 
 ## Usage
 
 ```ts
-import "@drift/ui/styles.css";
-import { Button } from "@drift/ui";
+import "drift-design/styles.css";
+import { Button } from "drift-design";
 ```

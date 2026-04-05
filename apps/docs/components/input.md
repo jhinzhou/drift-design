@@ -8,7 +8,7 @@
 
 ```vue
 <script setup lang="ts">
-import { Input } from "@drift/ui";
+import { Input } from "drift-design";
 </script>
 
 <template>

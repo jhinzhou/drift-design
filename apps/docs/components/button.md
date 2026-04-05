@@ -32,7 +32,7 @@ useCases:
 
 ```vue
 <script setup lang="ts">
-import { Button, createDriftI18n, provideDriftI18n } from "@drift/ui";
+import { Button, createDriftI18n, provideDriftI18n } from "drift-design";
 const i18n = createDriftI18n({ locale: "en-US" });
 provideDriftI18n(i18n);
 </script>
