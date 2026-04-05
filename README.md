@@ -14,3 +14,7 @@
 - `pnpm typecheck`: TS 类型检查
 - `pnpm build`: 构建组件库与文档
 - `pnpm harness`: 组件交付验收（7 类 Gate）
+
+## 发布文档
+
+- 版本发布与回滚规范：`docs/release-process.md`

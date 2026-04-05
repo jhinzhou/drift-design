@@ -9,119 +9,119 @@ importers:
   .:
     devDependencies:
       '@changesets/cli':
-        specifier: latest
+        specifier: 2.30.0
         version: 2.30.0(@types/node@25.5.2)
       '@commitlint/cli':
-        specifier: latest
+        specifier: 20.5.0
         version: 20.5.0(@types/node@25.5.2)(conventional-commits-parser@6.4.0)(typescript@6.0.2)
       '@commitlint/config-conventional':
-        specifier: latest
+        specifier: 20.5.0
         version: 20.5.0
       '@eslint/js':
-        specifier: latest
+        specifier: 10.0.1
         version: 10.0.1(eslint@10.2.0(jiti@2.6.1))
       '@types/node':
-        specifier: latest
+        specifier: 25.5.2
         version: 25.5.2
       '@typescript-eslint/eslint-plugin':
-        specifier: latest
+        specifier: 8.58.0
         version: 8.58.0(@typescript-eslint/parser@8.58.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2)
       '@typescript-eslint/parser':
-        specifier: latest
+        specifier: 8.58.0
         version: 8.58.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2)
       eslint:
-        specifier: latest
+        specifier: 10.2.0
         version: 10.2.0(jiti@2.6.1)
       eslint-plugin-vue:
-        specifier: latest
+        specifier: 10.8.0
         version: 10.8.0(@typescript-eslint/parser@8.58.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1))(vue-eslint-parser@10.4.0(eslint@10.2.0(jiti@2.6.1)))
       globals:
-        specifier: latest
+        specifier: 17.4.0
         version: 17.4.0
       prettier:
-        specifier: latest
+        specifier: 3.8.1
         version: 3.8.1
       simple-git-hooks:
-        specifier: latest
+        specifier: 2.13.1
         version: 2.13.1
       typescript:
-        specifier: latest
+        specifier: 6.0.2
         version: 6.0.2
       typescript-eslint:
-        specifier: latest
+        specifier: 8.58.0
         version: 8.58.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2)
       vue-eslint-parser:
-        specifier: latest
+        specifier: 10.4.0
         version: 10.4.0(eslint@10.2.0(jiti@2.6.1))
 
   apps/docs:
     devDependencies:
       markdown-it-container:
-        specifier: latest
+        specifier: 4.0.0
         version: 4.0.0
       typescript:
-        specifier: latest
+        specifier: 6.0.2
         version: 6.0.2
       vitepress:
-        specifier: latest
+        specifier: 1.6.4
         version: 1.6.4(@algolia/client-search@5.50.1)(@types/node@25.5.2)(lightningcss@1.32.0)(postcss@8.5.8)(search-insights@2.17.3)(stylus@0.57.0)(typescript@6.0.2)
 
   packages/ui:
     dependencies:
       '@radix-icons/vue':
-        specifier: latest
+        specifier: 1.0.0
         version: 1.0.0(vue@3.5.32(typescript@6.0.2))
       class-variance-authority:
-        specifier: latest
+        specifier: 0.7.1
         version: 0.7.1
       clsx:
-        specifier: latest
+        specifier: 2.1.1
         version: 2.1.1
       radix-vue:
-        specifier: latest
+        specifier: 1.9.17
         version: 1.9.17(vue@3.5.32(typescript@6.0.2))
       tailwind-merge:
-        specifier: latest
+        specifier: 3.5.0
         version: 3.5.0
     devDependencies:
       '@tailwindcss/vite':
-        specifier: latest
+        specifier: 4.2.2
         version: 4.2.2(vite@8.0.3(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@types/node@25.5.2)(esbuild@0.27.7)(jiti@2.6.1)(stylus@0.57.0)(tsx@4.21.0))
       '@vitejs/plugin-vue':
-        specifier: latest
+        specifier: 6.0.5
         version: 6.0.5(vite@8.0.3(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@types/node@25.5.2)(esbuild@0.27.7)(jiti@2.6.1)(stylus@0.57.0)(tsx@4.21.0))(vue@3.5.32(typescript@6.0.2))
       '@vue/test-utils':
-        specifier: latest
+        specifier: 2.4.6
         version: 2.4.6
       jsdom:
-        specifier: latest
+        specifier: 29.0.1
         version: 29.0.1(@noble/hashes@1.8.0)
       shadcn-vue:
-        specifier: latest
+        specifier: 2.5.1
         version: 2.5.1(eslint@10.2.0(jiti@2.6.1))(vue@3.5.32(typescript@6.0.2))
       tailwindcss:
-        specifier: latest
+        specifier: 4.2.2
         version: 4.2.2
       tslib:
-        specifier: latest
+        specifier: 2.8.1
         version: 2.8.1
       tsx:
-        specifier: latest
+        specifier: 4.21.0
         version: 4.21.0
       vite:
-        specifier: latest
+        specifier: 8.0.3
         version: 8.0.3(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@types/node@25.5.2)(esbuild@0.27.7)(jiti@2.6.1)(stylus@0.57.0)(tsx@4.21.0)
       vite-plugin-dts:
-        specifier: latest
+        specifier: 4.5.4
         version: 4.5.4(@types/node@25.5.2)(rollup@4.60.1)(typescript@6.0.2)(vite@8.0.3(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@types/node@25.5.2)(esbuild@0.27.7)(jiti@2.6.1)(stylus@0.57.0)(tsx@4.21.0))
       vitest:
-        specifier: latest
+        specifier: 4.1.2
         version: 4.1.2(@types/node@25.5.2)(jsdom@29.0.1(@noble/hashes@1.8.0))(vite@8.0.3(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@types/node@25.5.2)(esbuild@0.27.7)(jiti@2.6.1)(stylus@0.57.0)(tsx@4.21.0))
       vue:
-        specifier: latest
+        specifier: 3.5.32
         version: 3.5.32(typescript@6.0.2)
       vue-tsc:
-        specifier: latest
+        specifier: 3.2.6
         version: 3.2.6(typescript@6.0.2)
 
 packages:

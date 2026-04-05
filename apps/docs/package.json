@@ -12,8 +12,8 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "devDependencies": {
-    "markdown-it-container": "latest",
-    "typescript": "latest",
-    "vitepress": "latest"
+    "markdown-it-container": "4.0.0",
+    "typescript": "6.0.2",
+    "vitepress": "1.6.4"
   }
 }

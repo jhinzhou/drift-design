@@ -25,20 +25,20 @@
     "commit-msg": "pnpm commitlint --edit $1"
   },
   "devDependencies": {
-    "@commitlint/cli": "latest",
-    "@commitlint/config-conventional": "latest",
-    "@changesets/cli": "latest",
-    "@eslint/js": "latest",
-    "@types/node": "latest",
-    "@typescript-eslint/eslint-plugin": "latest",
-    "@typescript-eslint/parser": "latest",
-    "eslint": "latest",
-    "eslint-plugin-vue": "latest",
-    "globals": "latest",
-    "prettier": "latest",
-    "simple-git-hooks": "latest",
-    "typescript": "latest",
-    "typescript-eslint": "latest",
-    "vue-eslint-parser": "latest"
+    "@commitlint/cli": "20.5.0",
+    "@commitlint/config-conventional": "20.5.0",
+    "@changesets/cli": "2.30.0",
+    "@eslint/js": "10.0.1",
+    "@types/node": "25.5.2",
+    "@typescript-eslint/eslint-plugin": "8.58.0",
+    "@typescript-eslint/parser": "8.58.0",
+    "eslint": "10.2.0",
+    "eslint-plugin-vue": "10.8.0",
+    "globals": "17.4.0",
+    "prettier": "3.8.1",
+    "simple-git-hooks": "2.13.1",
+    "typescript": "6.0.2",
+    "typescript-eslint": "8.58.0",
+    "vue-eslint-parser": "10.4.0"
   }
 }

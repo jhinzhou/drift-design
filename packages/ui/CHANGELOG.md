@@ -1,5 +1,11 @@
 # @drift-ui/ui
 
+## 1.0.1
+
+### Patch Changes
+
+- fix: align release workflow pnpm resolution and pin dependency versions for reproducible installs.
+
 ## 1.0.0
 
 ### Major Changes
